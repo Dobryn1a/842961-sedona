@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий Баранов](https://up.htmlacademy.ru/htmlcss/22/user/842961).
-* Наставник: `Екатерина Комнатная (https://htmlacademy.ru/profile/id215761)`.
+* Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
 
 ---
 
