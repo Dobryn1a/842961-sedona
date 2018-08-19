@@ -23,7 +23,7 @@
         <div class="main-hotels-photo">
           <img src="img/main-hotels.png" width="100" height="100" alt="Домики Седоны">
         </div>
-        <form class="main-filtres-form">
+        <form action="https://echo.htmlacademy.ru" class="main-filtres-form">
           <h3 class="infrastructure">Инфраструктура:</h3>
           <ul>
             <li class="check">
@@ -55,10 +55,10 @@
             </li>
           </ul>
           <h2 class="price-day">Стоимость в сутки (Р):</h2>
-          <button>от 0</button>
-          <button>до 3000</button>
+          <button type="button">от 0</button>
+          <button type="button">до 3000</button>
           <input type="range" min="0" max="3000">
-          <button>Показать</button>
+          <button type="submit">Показать</button>
         </form>
       </section>
       <section class="filtres">
@@ -69,8 +69,8 @@
           <li><a href="#">По типу</a></li>
           <li><a href="#">По рейтингу</a></li>
         </ul>
-        <!--img src="img/icon-up-dir.svg" width="100" height="100" alt="Вверх"-->
-        <!--img src="img/icon-down-dir.svg" width="100" height="100" alt="Вниз"-->
+        <!--a class="icon-up" href="#"><img src="img/icon-up-dir.svg" width="100" height="100" alt="Вверх"></a>
+        <a class="icon-down" href="#"><img src="img/icon-down-dir.svg" width="100" height="100" alt="Вниз"></a-->
       </section>
       <section class="results">
         <div class="first-hotels">
@@ -79,7 +79,7 @@
           <p>Гостиница от 4000 р.</p>
           <a class="detail" href="#">Подробнее</a>
           <a href="reserved">Забронировать</a>
-          <!--img src="img/star.svg" width="100" height="100" alt="4 звезды"-->
+          <span class="stars"><!--img src="img/star.svg" width="100" height="100" alt="4 звезды"--></span>
           <span>Рейтинг: 8,5</span>
         </div>
         <div class="second-hotels">
@@ -88,7 +88,7 @@
           <p>Мотель от 3000 р.</p>
           <a class="detail" href="#">Подробнее</a>
           <a href="reserved">Забронировать</a>
-          <!--img src="img/star.svg" width="100" height="100" alt="3 звезды"-->
+          <span class="stars"><!--img src="img/star.svg" width="100" height="100" alt="3 звезды"--></span>
           <span>Рейтинг: 8,9</span>
         </div>
         <div class="third-hotels">
@@ -97,7 +97,7 @@
           <p>Апартаменты от 2000 р.</p>
           <a class="detail" href="#">Подробнее</a>
           <a href="reserved">Забронировать</a>
-          <!--img src="img/star.svg" width="100" height="100" alt="2 звезды"-->
+          <span class="stars"><!--img src="img/star.svg" width="100" height="100" alt="2 звезды"--></span>
           <span>Рейтинг: 9,2</span>
         </div>
       </section>

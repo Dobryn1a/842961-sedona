@@ -21,13 +21,11 @@
     <main class="main-general">
        <section class="main-welcome">
         <h1 class="hidden">SEDONA</h1>
-        <a class="intro-welcome">
+        <div class="intro-welcome">
           <!--img src="img/intro-welcome.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
-        </a>
-         <img src="img/main-photo.jpg" width="100" height="100" alt="Красота Седоны">
-         <a class="intro-mask">
-           <!--img src="img/intro-mask.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
-         </a>
+        </div>
+        <!-- Это стаивм в CSS<img src="img/main-photo.jpg" width="100" height="100" alt="Красота Седоны">
+        <img src="img/intro-mask.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
        </section>
        <section class="small-city">
          <h2>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
@@ -45,23 +43,23 @@
        </section>
        <section class="mail-item">
         <div class="advantages-item">
-          <a class="icon-1">
+          <div class="icon-1">
             <!--img src="img/icon-1.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
-          </a>
+          </div>
           <h3>Жильё</h3>
           <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </div>
         <div class="advantages-item">
-          <a class="icon-2">
+          <div class="icon-2">
             <!--img src="img/icon-1.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
-          </a>
+          </div>
           <h3>Еда</h3>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
         <div class="advantages-item">
-          <a class="icon-3">
+          <div class="icon-3">
             <!--img src="img/icon-1.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
-          </a>
+          </div>
           <h3>Сувениры</h3>
           <p>Не только китайского, но и местного производства!</p>
         </div>
@@ -103,30 +101,29 @@
          <div class="map-photo">
            <img src="img/map.jpg" width="100" height="100" alt="Карта Седоны">
          </div>
-         <button class="button-search-hotels">Поиск гостиницы в седоне</button>
-         <form class="form-search-hotels">
-           <p class="form">
+         <button type="button" class="button-search-hotels">Поиск гостиницы в седоне</button>
+         <form action="https://echo.htmlacademy.ru" class="form-search-hotels">
+           <p class="form-row">
               <label for="form-date-in">Дата заезда</label>
-              <input id="form-date-in" type="date" name="date" value="">
+              <input id="form-date-in" type="text" name="date" value=""><!--img src="img/calendar.svg" width="100" height="100" alt="Календарь"-->
            </p>
-           <p class="form">
+           <p class="form-row">
               <label for="form-date-out">Дата выезда</label>
-              <input id="form-date-out" type="date" name="date" value="">
+              <input id="form-date-out" type="text" name="date" value=""><!--img src="img/calendar.svg" width="100" height="100" alt="Календарь"-->
            </p>
-<!--           <p class="form">
+           <p class="form-row">
               <label for="adults">Взрослые</label>
-              <button for="adults" class="adults-minus"></button>
-              <input id="adults" type="number" name="adults" value="">
-              <button for="adults" class="adults-plus"></button>
+              <button type="button" class="adults-minus">-</button>
+              <input id="adults" type="text" name="adults" value="">
+              <button type="buttont" class="adults-plus">+</button>
            </p>
-           <p class="form">
+           <p class="form-row">
               <label for="child">Дети</label>
-              <button for="child" class="child-minus"></button>
-              <input id="child" type="number" name="child" value="">
-              <button for="child" class="child-plus"></button>
+              <button type="button" class="child-minus">-</button>
+              <input id="child" type="text" name="child" value="">
+              <button type="button" class="child-plus">+</button>
            </p>
-           <a class="search" href="#">Найти</a>
--->
+           <button type="submit" class="search">Найти</button>
           </form>
        </section>
     </main>
