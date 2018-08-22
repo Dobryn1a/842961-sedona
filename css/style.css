@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
-  font-size: 14;
-  line-height: 26;
+  font-size: 14px;
+  line-height: 26px;
   font-weight: 400;
   color: #333333;
   text-transform: uppercase;
@@ -11,8 +11,8 @@ body {
 }
 
 .inner-page {
-  font-size: 14;
-  line-height: 21;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 400;
   color: #ffffff;
 }
@@ -37,18 +37,18 @@ a {
 .info a:hover,
 .gallery a:hover,
 .map a:hover,
-.hotels a:hover {
+.main-hotels a:hover {
   background-color: #b2b2b2;
 }
 
 .info a:focus,
 .gallery a:focus,
 .map a:focus,
-.hotels a:focus {
+.main-hotels a:focus {
   background-color: #81b3d2;
 }
 
-.intro-welcome {
+.main-photo {
   background-color: #f2f2f2;
   background-image: url(img/main-photo.jpg);
   background-position: 0 0;
@@ -64,8 +64,8 @@ a {
 }
 
 .small-city h2 {
-  font-size: 21;
-  line-height: 26;
+  font-size: 21px;
+  line-height: 26px;
   font-weight: 700;
   color: #000000;
 }
@@ -75,15 +75,15 @@ a {
 }
 
 .really-city h3 {
-  font-size: 21;
-  line-height: 21;
+  font-size: 21px;
+  line-height: 21px;
   font-weight: 400;
   color: #ffffff;
 }
 
 .really-city p {
-  font-size: 14;
-  line-height: 21;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 400;
   color: #ffffff;
 }
@@ -101,14 +101,14 @@ a {
 }
 
 .advantages-item h3 {
-  font-size: 21;
-  line-height: 21;
+  font-size: 21px;
+  line-height: 21px;
   font-weight: 700;
   color: #000000;
 }
 
 .advantages-item p {
-  line-height: 21;
+  line-height: 21px;
 }
 
 .bridge-diablo-photo {
@@ -123,15 +123,15 @@ a {
 }
 
 .bridge-diablo h3 {
-  font-size: 21;
-  line-height: 21;
+  font-size: 21px;
+  line-height: 21px;
   font-weight: 400;
   color: #ffffff;
 }
 
 .bridge-diablo p {
-  font-size: 14;
-  line-height: 21;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 400;
   color: #ffffff;
 }
@@ -146,14 +146,14 @@ a {
 }
 
 .outbridge h3 {
-  font-size: 21;
-  line-height: 21;
+  font-size: 21px;
+  line-height: 21px;
   font-weight: 700;
   color: #000000;
 }
 
 .outbridge p {
-  line-height: 21;
+  line-height: 21px;
 }
 
 .interest {
@@ -162,15 +162,15 @@ a {
 }
 
 .answer {
-  font-size: 30;
-  line-height: 36;
+  font-size: 30px;
+  line-height: 36px;
   font-weight: 700;
   color: #000000;
 }
 
 .interest p {
-  font-size: 14;
-  line-height: 24;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .map-photo {
@@ -187,8 +187,8 @@ a {
   background-position: center;
   text-transform: uppercase;
   border: none;
-  font-size: 21;
-  line-height: 26;
+  font-size: 21px;
+  line-height: 26px;
   font-weight: 400;
   vertical-align: middle;
 }
@@ -199,7 +199,7 @@ a {
 
 .button-search-hotels:hover {
   background-color: #503e33;
-  color: rgba(0, 0, 0, 0,3);
+  color: rgba(255, 255, 255, 255, 0.3);
 }
 
 .search-hotels {
@@ -207,12 +207,12 @@ a {
 }
 
 .main-footer {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .teg {
-  font-size: 21;
-  line-height: 26;
+  font-size: 21px;
+  line-height: 26px;
   font-weight: 700;
   color: #000000;
   text-align: left;
@@ -229,8 +229,8 @@ a {
 }
 
 .button-footer {
-  font-size: 14;
-  line-height: 26;
+  font-size: 14px;
+  line-height: 26px;
   font-weight: 400;
   color: #000000;
 }
@@ -240,16 +240,16 @@ a {
 }
 
 .form-row label {
-  font-size: 14;
-  line-height: 26;
+  font-size: 14px;
+  line-height: 26px;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
 }
 
 .form-row input {
-  font-size: 14;
-  line-height: 26;
+  font-size: 14px;
+  line-height: 26px;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
@@ -266,8 +266,8 @@ a {
 }
 
 .search {
-  font-size: 21;
-  line-height: 26;
+  font-size: 21px;
+  line-height: 26px;
   font-weight: 700;
   color: #ffffff;
   background-color: #81b3d2;
@@ -292,8 +292,8 @@ a {
 
 .inner-nav {
   list-style: none;
-  font-size: 14;
-  line-height: 26;
+  font-size: 14px;
+  line-height: 26px;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
@@ -315,16 +315,16 @@ a {
 }
 
 .main-filtres-form h3 {
-  font-size: 16;
-  line-height: 21;
+  font-size: 16px;
+  line-height: 21px;
   font-weight: 700;
   color: #ffffff;
   background-color: #f2f2f2;
 }
 
 .main-filtres-form label {
-  font-size: 14;
-  line-height: 21;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 400;
   color: #ffffff;
   background-color: #f2f2f2;
@@ -346,16 +346,16 @@ a {
 }
 
 .price-day {
-  font-size: 16;
-  line-height: 21;
+  font-size: 16px;
+  line-height: 21px;
   font-weight: 700;
   color: #000000;
   background-color: #f2f2f2;
 }
 
 .main-filtres-form button {
-  font-size: 14;
-  line-height: 21;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 400;
   color: #000000;
   background-color: none;
@@ -365,25 +365,29 @@ a {
   vertical-align: middle;
 }
 
+.filtres {
+  list-style: none;
+}
+
 .filtres h2 {
-  font-size: 21;
-  line-height: 26;
+  font-size: 21px;
+  line-height: 26px;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
 }
 
 .filtres p {
-  font-size: 12;
-  line-height: 18;
+  font-size: 12px;
+  line-height: 18px;
   font-weight: 400;
   color: #000000;
   background-color: #ffffff;
 }
 
 .filtres li {
-  font-size: 12;
-  line-height: 18;
+  font-size: 12px;
+  line-height: 18px;
   font-weight: 400;
   color: #cacaca;
   background-color: #ffffff;
@@ -433,41 +437,41 @@ a {
   color: #000000;
 }
 
-.first-hotels h2 {
-  font-size: 21;
-  line-height: 26;
+.hotels h2 {
+  font-size: 21px;
+  line-height: 26px;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
 }
 
-.first-hotels h2:focus {
+.hotels h2:focus {
   color: #81b3d2;
 }
 
-.first-hotels h2:hover {
+.hotels h2:hover {
   color: #b2b2b2;
 }
 
-.first-hotels p {
-  font-size: 14;
-  line-height: 21;
+.hotels p {
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 400;
   color: #5c5c5c;
   background-color: #ffffff;
 }
 
 .detail {
-  font-size: 14;
-  line-height: 21;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
   color: #ffffff;
   background-color: #81b3d2;
 }
 
 .reserved {
-  font-size: 14;
-  line-height: 21;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
   color: #ffffff;
   background-color: #766357;
@@ -478,7 +482,7 @@ a {
 }
 
 .detail:hover {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 255, 0.3);
   background-color: #5496bd;
 }
 
@@ -487,7 +491,7 @@ a {
 }
 
 .reserved:hover {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 255, 0.3);
   background-color: #503e33;
 }
 
@@ -500,9 +504,13 @@ a {
 }
 
 .rating {
-  font-size: 14;
-  line-height: 21;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 400;
   color: #666666;
   background-color: #f2f2f2;
+}
+
+.inner-footer {
+  background-color: #ffffff;
 }
