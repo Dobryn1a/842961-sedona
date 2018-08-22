@@ -3,18 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link src="css/normalize.css" rel="stylesheet">
+    <link src="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <nav>
         <a class="header-logo">
-          <img src="img/logo-sedona.svg" width="100" height="100" alt="Логотип Седона">
+          <img src="img/logo-sedona.svg" width="140" height="72" alt="Логотип Седона">
         </a>
         <ul class="nav">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="gallery.html">Фото и видео</a></li>
-          <li><a href="map.html">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+          <li><a class="info" href="info.html">Информация</a></li>
+          <li><a class="gallery" href="gallery.html">Фото и видео</a></li>
+          <li><a class="map" href="map.html">Карта штата</a></li>
+          <li><a class="hotels" href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -22,7 +25,7 @@
        <section class="main-welcome">
         <h1 class="hidden">SEDONA</h1>
         <div class="intro-welcome">
-          <img src="img/intro-welcome.svg" width="100" height="100" alt="Добро пожаловать в Седону"->
+          <img src="img/intro-welcome.svg" width="459" height="353" alt="Добро пожаловать в Седону"->
         </div>
         <!-- Это стаивм в CSS<img src="img/main-photo.jpg" width="100" height="100" alt="Красота Седоны">
         <img src="img/intro-mask.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
@@ -38,7 +41,7 @@
          <p>Седона-не аттракцион для туристов, там течёт своя жизнь</p>
         </div>
         <div class="really-city-photo">
-           <img src="img/house.jpg" width="100" height="100" alt="Домики Седоны">
+           <img src="img/house.jpg" width="800" height="401" alt="Домики Седоны">
         </div>
        </section>
        <section class="mail-item">
@@ -48,12 +51,12 @@
           <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </div>
         <div class="advantages-item">
-            <!--img src="img/icon-1.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
+            <!--img src="img/icon-2.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
           <h3>Еда</h3>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
         <div class="advantages-item">
-            <!--img src="img/icon-1.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
+            <!--img src="img/icon-3.svg" width="100" height="100" alt="Добро пожаловать в Седону"-->
           <h3>Сувениры</h3>
           <p>Не только китайского, но и местного производства!</p>
         </div>
@@ -69,7 +72,7 @@
         </div>
        </section>
        <section class="outbridge">
-        <ul class="#">
+        <ul>
           <li>
             <h3>Небольшая площадь</h3>
             <p>№3</p>
@@ -88,36 +91,36 @@
         </ul>
        </section>
        <section class="interest">
-         <p>Заинтересовались?</p>
+         <p class="answer">Заинтересовались?</p>
          <p>Укажите предпологаемые даты поездки,<br> и мы подкажем вам лучшие предложения гостиниц в седоне</p>
        </section>
        <section class="search-hotels">
          <div class="map-photo">
-           <img src="img/map.jpg" width="100" height="100" alt="Карта Седоны">
+           <img src="img/map.jpg" width="1718" height="748" alt="Карта Седоны">
          </div>
          <button type="button" class="button-search-hotels">Поиск гостиницы в седоне</button>
          <form action="https://echo.htmlacademy.ru" class="form-search-hotels">
            <p class="form-row">
               <label for="form-date-in">Дата заезда</label>
               <input id="form-date-in" type="text" name="date" value="">
-              <button type="button"><img src="img/calendar.svg" width="100" height="100" alt="Календарь"></button>
+              <button class="button-form" type="button"><img src="img/calendar.svg" width="100" height="100" alt="Календарь"></button>
            </p>
            <p class="form-row">
               <label for="form-date-out">Дата выезда</label>
               <input id="form-date-out" type="text" name="date" value="">
-              <button type="button"><img src="img/calendar.svg" width="100" height="100" alt="Календарь"></button>
+              <button class="button-form" type="button"><img src="img/calendar.svg" width="100" height="100" alt="Календарь"></button>
            </p>
            <p class="form-row">
               <label for="adults">Взрослые</label>
-              <button type="button" class="adults-minus">-</button>
+              <button class="button-form" type="button" class="adults-minus">-</button>
               <input id="adults" type="text" name="adults" value="">
-              <button type="buttont" class="adults-plus">+</button>
+              <button class="button-form" type="buttont" class="adults-plus">+</button>
            </p>
            <p class="form-row">
               <label for="child">Дети</label>
-              <button type="button" class="child-minus">-</button>
+              <button class="button-form" type="button" class="child-minus">-</button>
               <input id="child" type="text" name="child" value="">
-              <button type="button" class="child-plus">+</button>
+              <button class="button-form" type="button" class="child-plus">+</button>
            </p>
            <button type="submit" class="search">Найти</button>
           </form>
@@ -131,8 +134,8 @@
           <li><a class="youtube" href="#">Youtube</a></li>
         </ul>
        <p class="footer-copyright">
-         <!--img src="img/logo-htmlacademy.svg" width="100" height="100" alt="Логотип Академии"-->
-         <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">Website by html academy</a>
+         <!--img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип Академии"-->
+         <a class="button-footer" href="https://htmlacademy.ru/intensive/htmlcss">Website by</a>
        </p>
     </footer>
   </body>

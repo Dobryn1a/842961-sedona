@@ -1,0 +1,508 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14;
+  line-height: 26;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+.inner-page {
+  font-size: 14;
+  line-height: 21;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.nav {
+  list-style: none;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.info a:hover,
+.gallery a:hover,
+.map a:hover,
+.hotels a:hover {
+  background-color: #b2b2b2;
+}
+
+.info a:focus,
+.gallery a:focus,
+.map a:focus,
+.hotels a:focus {
+  background-color: #81b3d2;
+}
+
+.intro-welcome {
+  background-color: #f2f2f2;
+  background-image: url(img/main-photo.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.main-filtres-form ul{
+  list-style: none;
+}
+
+.small-city {
+  text-align: center;
+}
+
+.small-city h2 {
+  font-size: 21;
+  line-height: 26;
+  font-weight: 700;
+  color: #000000;
+}
+
+.really-city {
+  background-color: #81b3d2;
+}
+
+.really-city h3 {
+  font-size: 21;
+  line-height: 21;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.really-city p {
+  font-size: 14;
+  line-height: 21;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.really-city-photo {
+  background-color: #81b3d2;
+  background-image: url(img/house.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.mail-item {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.advantages-item h3 {
+  font-size: 21;
+  line-height: 21;
+  font-weight: 700;
+  color: #000000;
+}
+
+.advantages-item p {
+  line-height: 21;
+}
+
+.bridge-diablo-photo {
+  background-color: #81b3d2;
+  background-image: url(img/bridge-diablo.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.bridge-diablo {
+  background-color: #81b3d2;
+}
+
+.bridge-diablo h3 {
+  font-size: 21;
+  line-height: 21;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.bridge-diablo p {
+  font-size: 14;
+  line-height: 21;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.outbridge {
+  background-color: #eeeeee;
+}
+
+.outbridge ul {
+  list-style: none;
+  text-align: center;
+}
+
+.outbridge h3 {
+  font-size: 21;
+  line-height: 21;
+  font-weight: 700;
+  color: #000000;
+}
+
+.outbridge p {
+  line-height: 21;
+}
+
+.interest {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.answer {
+  font-size: 30;
+  line-height: 36;
+  font-weight: 700;
+  color: #000000;
+}
+
+.interest p {
+  font-size: 14;
+  line-height: 24;
+}
+
+.map-photo {
+  background-color: #ffffff;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.button-search-hotels {
+  color: #ffffff;
+  width: 568px;
+  height: 86px;
+  background-color: #766357;
+  background-position: center;
+  text-transform: uppercase;
+  border: none;
+  font-size: 21;
+  line-height: 26;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.button-search-hotels:focus {
+  background-color: #604e43;
+}
+
+.button-search-hotels:hover {
+  background-color: #503e33;
+  color: rgba(0, 0, 0, 0,3);
+}
+
+.search-hotels {
+
+}
+
+.main-footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.teg {
+  font-size: 21;
+  line-height: 26;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+}
+
+.social {
+  list-style: none;
+  text-align: center;
+  color: #000000;
+}
+
+.footer-copyright {
+  text-align: right;
+}
+
+.button-footer {
+  font-size: 14;
+  line-height: 26;
+  font-weight: 400;
+  color: #000000;
+}
+
+.form-search-hotels {
+  background-color: #ffffff;
+}
+
+.form-row label {
+  font-size: 14;
+  line-height: 26;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.form-row input {
+  font-size: 14;
+  line-height: 26;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+.form-row input:focus {
+  background-color: #ebebeb;
+}
+
+.form-row input:hover {
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
+
+.search {
+  font-size: 21;
+  line-height: 26;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #81b3d2;
+  background-position: center;
+  text-transform: uppercase;
+  border: none;
+  vertical-align: middle;
+}
+
+.button-form {
+  background-color: #f2f2f2;
+  color: #a9a9a9;
+}
+
+.button-form:focus {
+  color: #000000;
+}
+
+.button-form:hover {
+  color: #81b3d2;
+}
+
+.inner-nav {
+  list-style: none;
+  font-size: 14;
+  line-height: 26;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.hotelshtml:active {
+  color: #766357;
+}
+
+.main-hotels-photo {
+  background-color: #f2f2f2;
+  background-image: url(img/main-hotels.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.main-filtres-form ul {
+  list-style: none;
+}
+
+.main-filtres-form h3 {
+  font-size: 16;
+  line-height: 21;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #f2f2f2;
+}
+
+.main-filtres-form label {
+  font-size: 14;
+  line-height: 21;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #f2f2f2;
+}
+
+.main-filtres-form input {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.main-filtres-form input:focus {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.main-filtres-form input:disabled {
+  border-color: #6a6a6a;
+  color: #6a6a6a;
+}
+
+.price-day {
+  font-size: 16;
+  line-height: 21;
+  font-weight: 700;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.main-filtres-form button {
+  font-size: 14;
+  line-height: 21;
+  font-weight: 400;
+  color: #000000;
+  background-color: none;
+  background-position: center;
+  text-transform: uppercase;
+  border-color: #000000;
+  vertical-align: middle;
+}
+
+.filtres h2 {
+  font-size: 21;
+  line-height: 26;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.filtres p {
+  font-size: 12;
+  line-height: 18;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.filtres li {
+  font-size: 12;
+  line-height: 18;
+  font-weight: 400;
+  color: #cacaca;
+  background-color: #ffffff;
+  text-decoration: underline;
+}
+
+.filtres li:active {
+  color: #81b3d2;
+  text-decoration: none;
+}
+
+.filtres li:focus {
+  color: #81b3d2;
+  text-decoration: underline;
+}
+
+.filtres li:focus {
+  color: #000000;
+  text-decoration: none;
+}
+
+.icon-up {
+  background-color: #ffffff;
+  background-image: url(img/icon-up-dir.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #cacaca;
+}
+
+.icon-down {
+  background-color: #ffffff;
+  background-image: url(img/icon-down-dir.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #cacaca;
+}
+
+.icon-up:active,
+.icon-down:active,
+.icon-up:hover,
+.icon-down:hover {
+  color: #81b3d2;
+}
+
+.icon-up:focus,
+.icon-down:focus {
+  color: #000000;
+}
+
+.first-hotels h2 {
+  font-size: 21;
+  line-height: 26;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.first-hotels h2:focus {
+  color: #81b3d2;
+}
+
+.first-hotels h2:hover {
+  color: #b2b2b2;
+}
+
+.first-hotels p {
+  font-size: 14;
+  line-height: 21;
+  font-weight: 400;
+  color: #5c5c5c;
+  background-color: #ffffff;
+}
+
+.detail {
+  font-size: 14;
+  line-height: 21;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.reserved {
+  font-size: 14;
+  line-height: 21;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.detail:focus {
+  background-color: #669ec0;
+}
+
+.detail:hover {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #5496bd;
+}
+
+.reserved:focus {
+  background-color: #604e43;
+}
+
+.reserved:hover {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #503e33;
+}
+
+.stars {
+  background-color: #ffffff;
+  background-image: url(img/star.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #81b3d2;
+}
+
+.rating {
+  font-size: 14;
+  line-height: 21;
+  font-weight: 400;
+  color: #666666;
+  background-color: #f2f2f2;
+}
