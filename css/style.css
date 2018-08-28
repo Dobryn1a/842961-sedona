@@ -451,10 +451,9 @@ a {
   text-decoration: none;
 }
 
-.filtres .for-price,
-.filtres .for-price.active,
-.filtres .for-price.active:active,
-.filtres .for-price.active:hover {
+.for-price.for-price,
+.for-price.for-price:active,
+.for-price.for-price:hover {
   color: #81b3d2;
   border: none;
 }
@@ -609,6 +608,8 @@ html {
 }
 
 .conteiner {
+  margin: 0;
+  padding: 0;
   padding-right: 40px;
   padding-left: 40px;
   min-width: 1200px;
@@ -616,6 +617,8 @@ html {
 }
 
 .inner-page {
+  margin: 0;
+  padding: 0;
   padding-right: 40px;
   padding-left: 40px;
   min-width: 1200px;
@@ -623,23 +626,27 @@ html {
 }
 
 .main-header {
-  width: 100%;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
   height: 56px;
 }
 
 .header-logo {
-  width: 140px;
-  height: 72px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
 }
 
 .nav {
+  padding: 0px;
+  margin: 0px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  width: 1056px;
-  margin: 0px;
-  padding: 0px;
+  justify-content: space-around;
 }
 
 .main-general {
@@ -682,7 +689,6 @@ html {
 }
 
 .really-city {
-
   /* временно */
   height: 256px;
 }
@@ -714,8 +720,6 @@ html {
 
 .really-city-photo {
   margin-left: auto;
-  width: 800px;
-  position: relative;
 }
 
 .mail-item {
@@ -806,24 +810,30 @@ html {
 }
 
 .search-hotels {
+  padding: 0px;
+  margin: 0px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 
 .form-search-hotels {
+  padding: 0px;
+  margin: 0px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   width: 568px;
   height: 395px;
   justify-content: space-around;
   position: absolute;
+  left: 50%;
+  margin-left: -284px;
 }
 
 .map-photo {
-  height: 748px;
+  height: auto;
 }
 
 .main-footer {
@@ -838,20 +848,31 @@ html {
 /* ----- Сеточные стили 2 страницы ----- */
 
 .inner-header {
+  position: relative;
   padding: 0px;
   margin: 0px;
   height: 56px;
 }
 
 .header-logo {
+  padding: 0px;
+  margin: 0px;
   position: absolute;
+  left: 50%;
+  margin-left: -70px;
 }
 
 .inner-nav {
+  padding: 0px;
+  margin: 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+.nav {
+  text-align: center;
 }
 
 .main-filtres-form {
@@ -878,6 +899,7 @@ html {
 
 .filtres {
   background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
   /* временно */
   height: 86px;
 }
@@ -900,6 +922,7 @@ html {
 .results {
   background-color: #ffffff;
   height: 450px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .hotels-conteiner {
@@ -907,7 +930,6 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   /* временно */
   height: 150px;
@@ -940,16 +962,14 @@ html {
 
 .information-item {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-right: auto;
   width: 393px;
-  height: 90px;
+  min-height: 90px;
 }
 
 .star {
-  width: 241px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -957,6 +977,8 @@ html {
 }
 
 .inner-footer {
+  padding: 0px;
+  margin: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
