@@ -21,6 +21,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .main-header {
   font-weight: 700;
   color: #000000;
@@ -90,13 +95,6 @@ a {
   color: #ffffff;
 }
 
-/*.really-city-photo {
-  background-color: #81b3d2;
-  background-image: url(img/house.jpg);
-  background-position: right;
-  background-repeat: no-repeat;
-}*/
-
 .mail-item {
   background-color: #ffffff;
   text-align: center;
@@ -112,13 +110,6 @@ a {
 .advantages-item p {
   line-height: 21px;
 }
-
-/*.bridge-diablo-photo {
-  background-color: #81b3d2;
-  background-image: url(img/bridge-diablo.jpg);
-  background-position: left;
-  background-repeat: no-repeat;
-}*/
 
 .bridge-diablo {
   background-color: #81b3d2;
@@ -608,20 +599,20 @@ html {
 }
 
 .conteiner {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   padding-right: 40px;
   padding-left: 40px;
-  min-width: 1200px;
+  max-width: 1200px;
   min-height: 2762px;
 }
 
 .inner-page {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   padding-right: 40px;
   padding-left: 40px;
-  min-width: 1200px;
+  max-width: 1200px;
   min-height: 933px;
 }
 
@@ -645,12 +636,18 @@ html {
   margin: 0px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
 
-.main-general {
+.nav a {
+  display: block;
+  padding: 15px 70px;
+  vertical-align: middle;
+}
 
+.main-general {
   /* временно */
   min-height: 2586px;
 }
@@ -658,7 +655,6 @@ html {
 .main-welcome {
   display: flex;
   flex-direction: column;
-  /* временно */
   height: 508px;
 }
 
@@ -673,8 +669,6 @@ html {
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
-  /* временно */
-  height: 216px;
 }
 
 .small-city h2 {
@@ -689,16 +683,12 @@ html {
 }
 
 .really-city {
-  /* временно */
-  height: 256px;
 }
 
 .realli-city-flex {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* временно */
-  height: 256px;
 }
 
 .really-city-1 {
@@ -714,12 +704,17 @@ html {
 }
 
 .really-city-1 p {
+  margin-left: 60px;
+  margin-right: 60px;
   width: 290px;
   text-align: center;
 }
 
 .really-city-photo {
+  padding: 0;
+  margin: 0;
   margin-left: auto;
+  height: 256px;
 }
 
 .mail-item {
@@ -727,6 +722,7 @@ html {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: relative;
   /* временно */
   height: 330px;
 }
@@ -734,6 +730,29 @@ html {
 .advantages-item {
   width: 400px;
   text-align: center;
+}
+
+.advantages-conteiner {
+  margin-left: 51px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 80px;
+  padding-top: 130px;
+}
+
+.icon-item-1::before {
+  content: "";
+
+  position: absolute;
+  left: 162px;
+  top: 60px;
+
+  width: 75px;
+  height: 72px;
+
+  background-image: url("../img/icon-1.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .bridge-diablo {
