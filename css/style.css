@@ -53,21 +53,17 @@ img {
 }
 
 .main-welcome {
-  min-height: 540px;
-  min-width: 1200px;
   background-color: #f2f2f2;
   background-image: url("../img/main-photo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+  padding-top: 61px;
+  padding-bottom: 79px;
 }
 
 .main-filtres-form ul{
   list-style: none;
-}
-
-.small-city {
-  text-align: center;
 }
 
 .small-city h2 {
@@ -601,10 +597,8 @@ html {
 .conteiner {
   margin: 0 auto;
   padding: 0;
-  padding-right: 40px;
-  padding-left: 40px;
   max-width: 1200px;
-  min-height: 2762px;
+  box-shadow: 0 0 10px 6px #dbdbdb;
 }
 
 .inner-page {
@@ -643,19 +637,12 @@ html {
 
 .nav a {
   display: block;
-  padding: 15px 70px;
+  padding-top: 15px;
   vertical-align: middle;
 }
 
-.main-general {
-  /* временно */
-  min-height: 2586px;
-}
-
-.main-welcome {
-  display: flex;
-  flex-direction: column;
-  height: 508px;
+.nav li {
+   width: 20%;
 }
 
 .intro-welcome {
@@ -668,33 +655,28 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   background-color: #ffffff;
+  padding-top: 56px;
+  padding-bottom: 50px
 }
 
 .small-city h2 {
-  margin-top: 56px;
   width: 450px;
   height: 50px;
 }
 
 .small-city p {
-  margin-bottom: 50px;
   width: 500px;
 }
 
-.really-city {
-}
-
-.realli-city-flex {
+.really-city-flex {
   display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .really-city-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-right: 50px;
+  padding-lef: 50px;
   width: 400px;
 }
 
@@ -704,9 +686,7 @@ html {
 }
 
 .really-city-1 p {
-  margin-left: 60px;
-  margin-right: 60px;
-  width: 290px;
+  width: 300px;
   text-align: center;
 }
 
@@ -714,27 +694,18 @@ html {
   padding: 0;
   margin: 0;
   margin-left: auto;
-  height: 256px;
 }
 
 .mail-item {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   position: relative;
   /* временно */
-  height: 330px;
+  min-height: 330px;
 }
 
 .advantages-item {
-  width: 400px;
-  text-align: center;
-}
-
-.advantages-conteiner {
   margin-left: 51px;
-  width: 300px;
+  width: 400px;
   text-align: center;
   margin-bottom: 80px;
   padding-top: 130px;
@@ -744,7 +715,7 @@ html {
   content: "";
 
   position: absolute;
-  left: 162px;
+  left: 190px;
   top: 60px;
 
   width: 75px;
@@ -753,12 +724,6 @@ html {
   background-image: url("../img/icon-1.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-}
-
-.bridge-diablo {
-
-  /* временно */
-  height: 256px;
 }
 
 .bridge-diablo-flex {
