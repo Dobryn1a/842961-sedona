@@ -25,11 +25,7 @@
     <main class="main-general">
        <section class="main-welcome">
         <h1 class="hidden">SEDONA</h1>
-        <div class="intro-welcome">
           <img src="img/intro-welcome.svg" width="459" height="353" alt="Добро пожаловать в Седону"->
-          <div class="main-photo">
-          </div>
-        </div>
        </section>
        <section class="small-city">
          <h2>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
@@ -98,26 +94,28 @@
           <div class="form">
            <p class="form-row">
               <label for="form-date-in">Дата заезда</label>
-              <input id="form-date-in" type="text" name="date" value="">
+              <input id="form-date-in" type="text" name="date" value="" placeholder="24 Апреля 2017">
               <button class="button-form" type="button"><img src="img/calendar.svg" width="20" height="20" alt="Календарь"></button>
            </p>
            <p class="form-row">
               <label for="form-date-out">Дата выезда</label>
-              <input id="form-date-out" type="text" name="date" value="">
+              <input id="form-date-out" type="text" name="date" value="" placeholder="4 Июля 2017">
               <button class="button-form" type="button"><img src="img/calendar.svg" width="20" height="20" alt="Календарь"></button>
            </p>
+          <div class="form-row-item">
            <p class="form-row">
               <label for="adults">Взрослые</label>
               <button class="button-form" type="button" class="adults-minus">-</button>
-              <input id="adults" type="text" name="adults" value="">
+              <input id="adults" type="text" name="adults" value="" placeholder="2">
               <button class="button-form" type="buttont" class="adults-plus">+</button>
            </p>
            <p class="form-row">
               <label for="child">Дети</label>
               <button class="button-form" type="button" class="child-minus">-</button>
-              <input id="child" type="text" name="child" value="">
+              <input id="child" type="text" name="child" value="" placeholder="0">
               <button class="button-form" type="button" class="child-plus">+</button>
            </p>
+          </div>
           </div>
            <button type="submit" class="search">Найти</button>
          </form>
