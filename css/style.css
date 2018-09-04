@@ -447,13 +447,15 @@ input[type="checkbox"].hidden {
 }
 
 .form {
-  padding: 55px;
+  padding: 0px;
   margin: 0px;
 }
 
 .form-row {
   padding: 0px;
   margin: 0px;
+  padding-bottom: 30px;
+  position: relative;
 }
 
 .form-row label {
@@ -473,6 +475,28 @@ input[type="checkbox"].hidden {
   background-color: #f2f2f2;
 }
 
+.form-date input[type="text"] {
+  box-sizing: border-box;
+  width: 340px;
+  height: 38px;
+  margin: 0;
+  padding: 10px 0px;
+  padding-left: 13px;
+  padding-right: 38px;
+  color: #000000;
+  text-transform: uppercase;
+  border: none;
+}
+
+.form-date input[type="text"]::placeholder,
+.form-row-item input[type="text"]::placeholder {
+  color: #000000;
+}
+
+.form-date label {
+  padding-right: 21px;
+}
+
 .form-row input:focus {
   background-color: #ffffff;
   border-color: #e5e5e5;
@@ -480,6 +504,147 @@ input[type="checkbox"].hidden {
 
 .form-row input:hover {
   background-color: #ebebeb;
+}
+
+.button-form {
+  margin: 0;
+  padding: 0;
+  width: 21px;
+  height: 22px;
+  position: absolute;
+  top: 8px;
+  left: 419px;
+  background-color: transparent;
+  fill: #a9a9a9;
+  border: none;
+}
+
+.button-form:hover {
+  fill: #000000;
+}
+
+.button-form:active {
+  fill: #81b3d2;
+}
+
+.form-row-item {
+  display: flex;
+}
+
+.adults {
+  padding-right: 81px;
+}
+
+.child {
+  margin-left: 81px;
+  padding-right: 65px;
+}
+
+.form-row-item input[type="text"] {
+  box-sizing: border-box;
+  width: 38px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  border: none;
+}
+
+.form-row .button-form-minus {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 0px;
+  left: 118px;
+}
+
+.form-row .button-form-plus {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 0px;
+  left: 194px;
+}
+
+.form-row .button-form-minus-child {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+}
+
+.form-row .button-form-plus-child {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 0px;
+  left: 226px;
+}
+
+.button-form-minus::before,
+.button-form-minus-child::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 14px;
+  padding: 0;
+  margin: 0;
+  width: 12px;
+  height: 3px;
+  background-color: #a9a9a9;
+}
+
+.button-form-plus::before,
+.button-form-plus-child::before,
+.button-form-plus::after,
+.button-form-plus-child::after {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 14px;
+  padding: 0;
+  margin: 0;
+  width: 12px;
+  height: 3px;
+  background-color: #a9a9a9;
+}
+
+.button-form-plus::after,
+.button-form-plus-child::after {
+  transform: rotate(90deg);
+}
+
+.button-form-plus:hover::before,
+.button-form-plus-child:hover::before,
+.button-form-plus:hover::after,
+.button-form-plus-child:hover::after {
+  background-color: #000000;
+}
+
+.button-form-plus:active::before,
+.button-form-plus-child:active::before,
+.button-form-plus:active::after,
+.button-form-plus-child:active::after {
+  background-color: #81b3d2;
 }
 
 .search {
@@ -503,23 +668,6 @@ input[type="checkbox"].hidden {
 .search:active {
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.3);
-}
-
-.button-form {
-  background-color: #f2f2f2;
-  color: #a9a9a9;
-}
-
-.button-form:hover {
-  color: #000000;
-}
-
-.button-form:active {
-  color: #81b3d2;
-}
-
-.form-row-item {
-
 }
 
 .main-footer {
