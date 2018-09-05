@@ -78,7 +78,7 @@ input[type="checkbox"].hidden {
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
-  padding: 17px 73px;
+  padding: 14px 73px;
   margin: 0px;
   display: flex;
   flex-wrap: wrap;
@@ -89,7 +89,7 @@ input[type="checkbox"].hidden {
 }
 
 .nav li {
-   width: 240px;
+   width: 242px;
 }
 
 .nav li:nth-child(1) {
@@ -120,21 +120,18 @@ input[type="checkbox"].hidden {
   background-position: top center;
   background-repeat: no-repeat;
   text-align: center;
-  padding-top: 61px;
-  padding-bottom: 79px;
+  padding-top: 77px;
+  padding-bottom: 72px;
   position: relative;
 }
 
 .main-welcome::before {
   content: "";
-
   position: absolute;
   bottom: -2px;
   left: -1px;
-
   width: 1202px;
   height: 59px;
-
   background-image: url("../img/intro-mask.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -160,8 +157,8 @@ input[type="checkbox"].hidden {
 .small-city p {
   margin: 0;
   padding: 0;
-  padding-top: 25px;
-  padding-bottom: 50px;
+  padding-top: 27px;
+  padding-bottom: 51px;
 }
 
 .really-city {
@@ -192,15 +189,15 @@ input[type="checkbox"].hidden {
 .really-city-1 h3 {
   margin: 0;
   padding: 0 100px;;
-  padding-top: 45px;
-  padding-bottom: 25px;
+  padding-top: 47px;
+  padding-bottom: 24px;
   text-align: center;
 }
 
 .really-city-1 p {
   margin: 0;
   padding: 0 60px;
-  padding-bottom: 25px;
+  padding-bottom: 21px;
   text-align: center;
 }
 
@@ -223,7 +220,7 @@ input[type="checkbox"].hidden {
 .advantages-item h3 {
   margin: 0;
   padding: 0;
-  padding-top: 155px;
+  padding-top: 161px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -315,8 +312,8 @@ input[type="checkbox"].hidden {
 .bridge-diablo-place h3 {
   margin: 0;
   padding: 0 100px;;
-  padding-top: 45px;
-  padding-bottom: 25px;
+  padding-top: 47px;
+  padding-bottom: 24px;
   text-align: center;
 }
 
