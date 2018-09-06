@@ -319,8 +319,8 @@ input[type="checkbox"].hidden {
 
 .bridge-diablo-place p {
   margin: 0;
-  padding: 0 60px;
-  padding-bottom: 25px;
+  padding: 0 48px;
+  padding-bottom: 22px;
   text-align: center;
 }
 
@@ -341,7 +341,7 @@ input[type="checkbox"].hidden {
 .outbridge h3 {
   margin: 0;
   padding: 0 130px;
-  padding-top: 45px;
+  padding-top: 47px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -351,7 +351,7 @@ input[type="checkbox"].hidden {
 .outbridge p {
   margin: 0;
   padding: 0 70px;
-  padding-top: 25px;
+  padding-top: 23px;
   line-height: 21px;
 }
 
@@ -366,6 +366,11 @@ input[type="checkbox"].hidden {
   width: 400px;
 }
 
+.outbridge-item:nth-last-child p {
+  padding: 0 71px;
+  padding-top: 23px;
+}
+
 .interest {
   background-color: #ffffff;
   text-align: center;
@@ -374,8 +379,8 @@ input[type="checkbox"].hidden {
 .interest p {
   margin: 0;
   padding: 0;
-  padding-top: 30px;
-  padding-bottom: 35px;
+  padding-top: 24px;
+  padding-bottom: 42px;
   font-size: 14px;
   line-height: 24px;
 }
@@ -383,7 +388,7 @@ input[type="checkbox"].hidden {
 .interest .answer {
   margin: 0;
   padding: 0;
-  padding-top: 55px;
+  padding-top: 51px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -416,7 +421,7 @@ input[type="checkbox"].hidden {
 }
 
 .button-search-hotels {
-  padding: 35px 140px;
+  padding: 33px 138px;
   margin: 0px;
   color: #ffffff;
   background-color: #766357;
@@ -477,8 +482,8 @@ input[type="checkbox"].hidden {
   width: 340px;
   height: 38px;
   margin: 0;
-  padding: 10px 0px;
-  padding-left: 13px;
+  padding: 5px 0px;
+  padding-left: 8px;
   padding-right: 38px;
   color: #000000;
   text-transform: uppercase;
@@ -509,8 +514,8 @@ input[type="checkbox"].hidden {
   width: 21px;
   height: 22px;
   position: absolute;
-  top: 8px;
-  left: 419px;
+  top: 6px;
+  left: 428px;
   background-color: transparent;
   fill: #a9a9a9;
   border: none;
@@ -526,15 +531,16 @@ input[type="checkbox"].hidden {
 
 .form-row-item {
   display: flex;
+  padding-bottom: 22px;
 }
 
 .adults {
-  padding-right: 81px;
+  padding-right: 75px;
 }
 
 .child {
-  margin-left: 81px;
-  padding-right: 65px;
+  margin-left: 91px;
+  padding-right: 61px;
 }
 
 .form-row-item input[type="text"] {
@@ -558,7 +564,7 @@ input[type="checkbox"].hidden {
   background-color: #f2f2f2;
   position: absolute;
   top: 0px;
-  left: 118px;
+  left: 113px;
 }
 
 .form-row .button-form-plus {
@@ -570,7 +576,7 @@ input[type="checkbox"].hidden {
   background-color: #f2f2f2;
   position: absolute;
   top: 0px;
-  left: 194px;
+  left: 188px;
 }
 
 .form-row .button-form-minus-child {
@@ -582,7 +588,7 @@ input[type="checkbox"].hidden {
   background-color: #f2f2f2;
   position: absolute;
   top: 0px;
-  left: 150px;
+  left: 156px;
 }
 
 .form-row .button-form-plus-child {
@@ -594,7 +600,7 @@ input[type="checkbox"].hidden {
   background-color: #f2f2f2;
   position: absolute;
   top: 0px;
-  left: 226px;
+  left: 232px;
 }
 
 .button-form-minus::before,
@@ -645,7 +651,7 @@ input[type="checkbox"].hidden {
 }
 
 .search {
-  padding: 20px 197px;
+  padding: 18px 196px;
   margin: 0px;
   font-size: 21px;
   line-height: 26px;
@@ -679,7 +685,7 @@ input[type="checkbox"].hidden {
 
 .teg {
   width: 400px;
-  padding: 47px 130px;
+  padding: 47px 133px;
   margin: 0px;
   font-size: 21px;
   line-height: 26px;
@@ -722,7 +728,7 @@ input[type="checkbox"].hidden {
 
 .footer-copyright {
   padding: 0px;
-  padding-right: 101px;
+  padding-right: 108px;
   margin: 0px;
   margin-left: auto;
   display: flex;
@@ -732,6 +738,7 @@ input[type="checkbox"].hidden {
 .button-footer {
   padding: 0px;
   padding-left: 100px;
+  padding-top: 6px;
   margin: 0px;
   font-size: 14px;
   line-height: 26px;
@@ -743,7 +750,7 @@ input[type="checkbox"].hidden {
   width: 115px;
   height: 41px;
   background-color: #ffffff;
-  padding-left: 9px;
+  padding-left: 8px;
 }
 
 .logo-htmlacademy:hover path {
@@ -787,7 +794,7 @@ input[type="checkbox"].hidden {
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
-  padding: 17px 73px;
+  padding: 14px 73px;
   margin: 0px;
   display: flex;
   flex-wrap: wrap;
@@ -798,7 +805,7 @@ input[type="checkbox"].hidden {
 }
 
 .inner-nav li {
-   width: 240px;
+   width: 242px;
 }
 
 .inner-nav li:nth-child(1) {
@@ -877,8 +884,7 @@ input[type="checkbox"].hidden {
 }
 
 .column-3 {
-  padding-right: 73px;
-  margin-left: auto;
+  margin-left: 50px auto;
   width: 330px;
 }
 
