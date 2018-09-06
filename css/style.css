@@ -794,7 +794,7 @@ input[type="checkbox"].hidden {
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
-  padding: 14px 73px;
+  padding: 15px 73px;
   margin: 0px;
   display: flex;
   flex-wrap: wrap;
@@ -855,7 +855,7 @@ input[type="checkbox"].hidden {
 
 .main-filtres-form h3 {
   padding: 0px;
-  padding-top: 25px;
+  padding-top: 27px;
   margin: 0px;
   font-size: 16px;
   line-height: 21px;
@@ -874,7 +874,7 @@ input[type="checkbox"].hidden {
 
 .column-1 {
   padding-left: 73px;
-  padding-bottom: 31px;
+  padding-bottom: 32px;
   width: 241px;
 }
 
@@ -884,8 +884,10 @@ input[type="checkbox"].hidden {
 }
 
 .column-3 {
-  margin-left: 50px auto;
-  width: 330px;
+  margin-left: auto;
+  padding-right: 72px;
+  padding-top: 14px;
+  width: 390px;
 }
 
 .check {
@@ -971,15 +973,15 @@ input[type="checkbox"].hidden {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 31px;
+  line-height: 32px;
   vertical-align: top;
   cursor: pointer;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {
-  width: 125px;
-  padding-left: 45px;
+  width: 147px;
+  padding-left: 65px;
 }
 
 .price-controls input {
@@ -1009,11 +1011,11 @@ input[type="checkbox"].hidden {
 
 .range-toggle {
   position: absolute;
-  top: -9px;
+  top: -8px;
   width: 4px;
   height: 4px;
   background: #ababab;
-  border: 8px solid #ffffff;
+  border: 10px solid #ffffff;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
@@ -1033,7 +1035,7 @@ input[type="checkbox"].hidden {
 
 .shows {
   display: block;
-  margin: 0 auto;
+  margin: 0 86px;
   padding: 6px 35px;
   font-size: 14px;
   line-height: 20px;
@@ -1065,7 +1067,7 @@ input[type="checkbox"].hidden {
 
 .filtres h2 {
   padding: 30px 0px;
-  padding-left: 73px;
+  padding-left: 74px;
   margin: 0px;
   font-size: 21px;
   line-height: 26px;
@@ -1076,7 +1078,7 @@ input[type="checkbox"].hidden {
 
 .filtres p {
   padding: 0px;
-  padding-left: 40px;
+  padding-left: 51px;
   margin: 0px;
   font-size: 12px;
   line-height: 18px;
@@ -1095,13 +1097,13 @@ input[type="checkbox"].hidden {
 
 .filtres li {
   padding: 0px;
-  padding-left: 30px;
+  padding-right: 33px;
   margin: 0px;
   list-style: none;
   background-color: #ffffff;
 }
 
-.filtres a {
+.sort a {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
@@ -1111,12 +1113,12 @@ input[type="checkbox"].hidden {
   list-style: none;
 }
 
-.filtres a:hover {
+.sort a:hover {
   color: #81b3d2;
   border-bottom: 1px dotted #81b3d2;
 }
 
-.filtres a:active {
+.sort a:active {
   color: #000000;
   border: none;
   text-decoration: none;
@@ -1136,7 +1138,7 @@ input[type="checkbox"].hidden {
 }
 
 .icon-up {
-  padding-right: 11px;
+  padding-right: 8px;
 }
 
 .icon-up,
@@ -1161,6 +1163,15 @@ input[type="checkbox"].hidden {
   text-decoration: none;
 }
 
+.icon-up.active:hover path,
+.icon-down.active:hover path,
+.icon-up.active:active path,
+.icon-down.active:active path,
+.icon-up.active path,
+.icon-down.active path {
+  fill: #81b3d2;
+}
+
 .results {
   background-color: #ffffff;
 }
@@ -1168,12 +1179,13 @@ input[type="checkbox"].hidden {
 .hotels {
   width: 100%;
   display: flex;
-  padding: 30px 73px;
+  padding: 25px 73px;
   border-bottom: 1px solid #e5e5e5;
   position: relative;
 }
 
 .hotels-photo {
+  padding-top: 5px;
   width: 135px;
   height: 90px;
 }
@@ -1208,7 +1220,7 @@ input[type="checkbox"].hidden {
 
 .hotels p {
   padding: 0px;
-  padding-top: 8px;
+  padding-top: 6px;
   padding-bottom: 15px;
   margin: 0px;
   font-size: 14px;
@@ -1219,7 +1231,7 @@ input[type="checkbox"].hidden {
 }
 
 .detail {
-  padding: 8px 16px;
+  padding: 4px 16px;
   margin: 0px;
   font-size: 14px;
   line-height: 21px;
@@ -1229,8 +1241,9 @@ input[type="checkbox"].hidden {
 }
 
 .reserved {
-  padding: 8px 16px;
+  padding: 5px 17px;
   margin: 0px;
+  margin-left: 3px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
@@ -1262,8 +1275,8 @@ input[type="checkbox"].hidden {
   background-repeat: no-repeat;
   color: #81b3d2;
   position: absolute;
-  top: -64px;
-  left: 112px;
+  top: -66px;
+  left: 108px;
 }
 
 .detail:hover {
@@ -1285,7 +1298,7 @@ input[type="checkbox"].hidden {
 }
 
 .rating {
-  padding: 5px 13px;
+  padding: 4px 12px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
