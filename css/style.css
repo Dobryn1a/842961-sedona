@@ -994,6 +994,7 @@ input[type="checkbox"].hidden {
 }
 
 .range-controls {
+  box-sizing: content-box;
   position: relative;
   margin-bottom: 32px;
 }
@@ -1011,7 +1012,7 @@ input[type="checkbox"].hidden {
 
 .range-toggle {
   position: absolute;
-  top: -8px;
+  top: -11px;
   width: 4px;
   height: 4px;
   background: #ababab;
@@ -1192,6 +1193,7 @@ input[type="checkbox"].hidden {
 
 .information-item {
   padding-left: 30px;
+  width: 300px;
 }
 
 .hotels h2 {
@@ -1219,6 +1221,8 @@ input[type="checkbox"].hidden {
 }
 
 .hotels p {
+  display: inline-block;
+  width: 120px;
   padding: 0px;
   padding-top: 6px;
   padding-bottom: 15px;
