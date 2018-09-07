@@ -111,7 +111,7 @@ input[type="checkbox"].hidden {
 }
 
 .nav a:active {
-  color: #b2b2b2;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .main-welcome {
@@ -169,7 +169,7 @@ input[type="checkbox"].hidden {
 .really-city h3 {
   font-size: 21px;
   line-height: 21px;
-  font-weight: 400;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -290,7 +290,7 @@ input[type="checkbox"].hidden {
   padding: 0;
   font-size: 21px;
   line-height: 21px;
-  font-weight: 400;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -430,7 +430,7 @@ input[type="checkbox"].hidden {
   border: none;
   font-size: 21px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: 700;
   vertical-align: middle;
 }
 
@@ -454,6 +454,7 @@ input[type="checkbox"].hidden {
 }
 
 .form-row {
+  display: flex;
   padding: 0px;
   margin: 0px;
   padding-bottom: 30px;
@@ -461,6 +462,7 @@ input[type="checkbox"].hidden {
 }
 
 .form-row label {
+  width: 113px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -479,12 +481,12 @@ input[type="checkbox"].hidden {
 
 .form-date input[type="text"] {
   box-sizing: border-box;
-  width: 340px;
+  width: 348px;
   height: 38px;
   margin: 0;
   padding: 5px 0px;
   padding-left: 8px;
-  padding-right: 38px;
+  padding-right: 35px;
   color: #000000;
   text-transform: uppercase;
   border: none;
@@ -496,7 +498,8 @@ input[type="checkbox"].hidden {
 }
 
 .form-date label {
-  padding-right: 21px;
+  padding-top: 6px;
+  padding-right: 20px;
 }
 
 .form-row input:focus {
@@ -535,11 +538,13 @@ input[type="checkbox"].hidden {
 }
 
 .adults {
-  padding-right: 75px;
+  padding-top: 6px;
+  padding-right: 151px;
 }
 
 .child {
   margin-left: 91px;
+  padding-top: 6px;
   padding-right: 61px;
 }
 
@@ -826,8 +831,8 @@ input[type="checkbox"].hidden {
   color: #81b3d2;
 }
 
-.inner-nav a:focus {
-  color: #b2b2b2;
+.inner-nav a:active {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .active.active,
@@ -1012,18 +1017,19 @@ input[type="checkbox"].hidden {
 
 .range-toggle {
   position: absolute;
-  top: -11px;
+  top: -9px;
   width: 4px;
   height: 4px;
   background: #ababab;
-  border: 10px solid #ffffff;
+  border: 8px solid #ffffff;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
 }
 
 .range-toggle:hover {
-  background: #1c4f80;
+  top: -10px;
+  border: 9px solid #ffffff;
 }
 
 .range-toggle-min {
@@ -1108,7 +1114,7 @@ input[type="checkbox"].hidden {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
-  color: #cacaca;
+  color: rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   border-bottom: 1px dotted #81b3d2;
   list-style: none;
@@ -1181,6 +1187,7 @@ input[type="checkbox"].hidden {
   width: 100%;
   display: flex;
   padding: 25px 73px;
+  padding-bottom: 34px;
   border-bottom: 1px solid #e5e5e5;
   position: relative;
 }
@@ -1222,7 +1229,7 @@ input[type="checkbox"].hidden {
 
 .hotels p {
   display: inline-block;
-  width: 120px;
+  width: 111px;
   padding: 0px;
   padding-top: 6px;
   padding-bottom: 15px;
@@ -1230,7 +1237,7 @@ input[type="checkbox"].hidden {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-  color: #5c5c5c;
+  color: #333333;
   background-color: #ffffff;
 }
 
@@ -1263,7 +1270,7 @@ input[type="checkbox"].hidden {
 .stars {
   width: 18px;
   height: 17px;
-  padding-left: 7px;
+  padding-left: 19px;
   display: inline-block;
   position: relative;
 }
@@ -1279,8 +1286,8 @@ input[type="checkbox"].hidden {
   background-repeat: no-repeat;
   color: #81b3d2;
   position: absolute;
-  top: -66px;
-  left: 108px;
+  top: -65px;
+  left: 111px;
 }
 
 .detail:hover {
