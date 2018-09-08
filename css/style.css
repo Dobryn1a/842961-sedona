@@ -5,7 +5,6 @@
 }
 
 html {
-  min-width: 1280px;
   box-sizing: border-box;
 }
 
@@ -24,7 +23,7 @@ body {
 .conteiner {
   margin: 0 auto;
   padding: 0;
-  max-width: 1200px;
+  width: 1200px;
   box-shadow: 0 0 10px 6px #dbdbdb;
 }
 
@@ -35,7 +34,7 @@ body {
   color: #ffffff;
   margin: 0 auto;
   padding: 0;
-  max-width: 1200px;
+  width: 1200px;
   box-shadow: 0 0 10px 6px #dbdbdb;
 }
 
@@ -468,6 +467,7 @@ input[type="checkbox"].hidden {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .form-row input {
@@ -539,18 +539,17 @@ input[type="checkbox"].hidden {
 
 .adults {
   padding-top: 6px;
-  padding-right: 151px;
 }
 
 .child {
-  margin-left: 91px;
   padding-top: 6px;
-  padding-right: 61px;
+  padding-left: 48px;
+  padding-right: 69px;
 }
 
 .form-row-item input[type="text"] {
   box-sizing: border-box;
-  width: 38px;
+  width: 114px;
   height: 38px;
   margin: 0;
   padding: 0;
@@ -581,7 +580,7 @@ input[type="checkbox"].hidden {
   background-color: #f2f2f2;
   position: absolute;
   top: 0px;
-  left: 188px;
+  right: 0px;
 }
 
 .form-row .button-form-minus-child {
@@ -593,7 +592,7 @@ input[type="checkbox"].hidden {
   background-color: #f2f2f2;
   position: absolute;
   top: 0px;
-  left: 156px;
+  left: 117px;
 }
 
 .form-row .button-form-plus-child {
@@ -605,7 +604,7 @@ input[type="checkbox"].hidden {
   background-color: #f2f2f2;
   position: absolute;
   top: 0px;
-  left: 232px;
+  right: 0px;
 }
 
 .button-form-minus::before,
@@ -644,14 +643,18 @@ input[type="checkbox"].hidden {
 .button-form-plus:hover::before,
 .button-form-plus-child:hover::before,
 .button-form-plus:hover::after,
-.button-form-plus-child:hover::after {
+.button-form-plus-child:hover::after,
+.button-form-minus:hover::before,
+.button-form-minus-child:hover::before {
   background-color: #000000;
 }
 
 .button-form-plus:active::before,
 .button-form-plus-child:active::before,
 .button-form-plus:active::after,
-.button-form-plus-child:active::after {
+.button-form-plus-child:active::after,
+.button-form-minus:active::before,
+.button-form-minus-child:active::before {
   background-color: #81b3d2;
 }
 
@@ -911,39 +914,46 @@ input[type="checkbox"].hidden {
   left: 0;
   width: 23px;
   height: 23px;
-  border: 2px solid #ffffff;
-  border-radius: 3px;
+  background-image: url("../img/checkbox-off.svg");
+  background-color: transparent;
 }
 
-.checkbox-item input[type="checkbox"]:disabled + .checkbox-indicator,
-.checkbox-item input[type="checkbox"]:checked:disabled + .checkbox-indicator {
-  border-color: #6a6a6a;
+.checkbox-item input[type="checkbox"]:disabled + .checkbox-indicator {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/checkbox-off-diss.svg");
+  background-color: transparent;
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-.checkbox-item input[type="checkbox"]:checked + .checkbox-indicator::before {
+.checkbox-item input[type="checkbox"]:checked:disabled + .checkbox-indicator {
   content: "";
   position: absolute;
-  top: 9px;
-  left: 1px;
-  width: 12px;
-  height: 5px;
-  background-color: #ffffff;
-  transform: rotate(45deg);
-  border-radius: 1px;
+  top: 0px;
+  left: 0;
+  width: 27px;
+  height: 23px;
+  background-image: url("../img/checkbox-on-diss.svg");
+  background-color: transparent;
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
+.checkbox-item input[type="checkbox"]:checked + .checkbox-indicator::before,
 .checkbox-item input[type="checkbox"]:checked + .checkbox-indicator::after {
   content: "";
   position: absolute;
-  top: 6px;
-  left: 6px;
-  width: 20px;
-  height: 5px;
-  background-color: #ffffff;
-  transform: rotate(-45deg);
-  border-radius: 1px;
+  top: 0px;
+  left: 0;
+  width: 27px;
+  height: 23px;
+  background-image: url("../img/checkbox-on.svg");
+  background-color: transparent;
 }
 
 .price-day {
