@@ -420,7 +420,8 @@ input[type="checkbox"].hidden {
 }
 
 .button-search-hotels {
-  padding: 33px 138px;
+  width: 568px;
+  padding: 34px 0px;
   margin: 0px;
   color: #ffffff;
   background-color: #766357;
@@ -461,7 +462,7 @@ input[type="checkbox"].hidden {
 }
 
 .form-row label {
-  width: 113px;
+  width: 114px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -544,7 +545,7 @@ input[type="checkbox"].hidden {
 .child {
   padding-top: 6px;
   padding-left: 48px;
-  padding-right: 69px;
+  margin-right: 2px;
 }
 
 .form-row-item input[type="text"] {
@@ -1197,15 +1198,15 @@ input[type="checkbox"].hidden {
   width: 100%;
   display: flex;
   padding: 25px 73px;
-  padding-bottom: 34px;
   border-bottom: 1px solid #e5e5e5;
   position: relative;
+  padding-bottom: 30px;
 }
 
 .hotels-photo {
   padding-top: 5px;
   width: 135px;
-  height: 90px;
+  line-height: 0px;
 }
 
 .information-item {
@@ -1242,7 +1243,7 @@ input[type="checkbox"].hidden {
   width: 111px;
   padding: 0px;
   padding-top: 6px;
-  padding-bottom: 17px;
+  padding-bottom: 14px;
   margin: 0px;
   font-size: 14px;
   line-height: 21px;
@@ -1252,17 +1253,18 @@ input[type="checkbox"].hidden {
 }
 
 .detail {
-  padding: 4px 16px;
+  padding: 3px 16px;
   margin: 0px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
   color: #ffffff;
   background-color: #81b3d2;
+  display: inline-block;
 }
 
 .reserved {
-  padding: 5px 17px;
+  padding: 3px 17px;
   margin: 0px;
   margin-left: 3px;
   font-size: 14px;
@@ -1270,34 +1272,34 @@ input[type="checkbox"].hidden {
   font-weight: 700;
   color: #ffffff;
   background-color: #766357;
+  display: inline-block;
 }
 
 .star {
-  margin-top: auto;
   margin-left: auto;
+  width: 120px;
+  text-align: right;
 }
 
-.stars {
+.stars-hotel {
   width: 18px;
   height: 17px;
   padding-left: 19px;
-  display: inline-block;
-  position: relative;
+  background-image: url(../img/star.svg);
+  background-repeat: space;
+  margin: 2px 0px 51px auto;
 }
 
-.stars::before {
-  content: "";
-  width: 18px;
-  height: 17px;
-  display: block;
-  vertical-align: top;
-  background-image: url(../img/star.svg);
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  color: #81b3d2;
-  position: absolute;
-  top: -65px;
-  left: 111px;
+.stars-hotel-1 {
+  width: 88px;
+}
+
+.stars-hotel-2 {
+  width: 62px;
+}
+
+.stars-hotel-3 {
+  width: 39px;
 }
 
 .detail:hover {
