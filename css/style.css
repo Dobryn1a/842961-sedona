@@ -500,7 +500,7 @@ input[type="checkbox"].hidden {
 
 .form-date label {
   padding-top: 6px;
-  padding-right: 20px;
+  padding-right: 15px;
 }
 
 .form-row input:focus {
@@ -553,7 +553,7 @@ input[type="checkbox"].hidden {
   width: 114px;
   height: 38px;
   margin: 0;
-  padding: 0;
+  padding: 0px 38px;
   text-align: center;
   color: #000000;
   text-transform: uppercase;
@@ -988,7 +988,7 @@ input[type="checkbox"].hidden {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 32px;
+  line-height: 27px;
   vertical-align: top;
   cursor: pointer;
 }
