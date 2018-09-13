@@ -412,7 +412,15 @@ a {
     height: 395px;
     position: absolute;
     left: 50%;
-    margin-left: -284px
+    margin-left: -284px;
+    display: none;
+    text-align: center;
+    background-color: #fff
+}
+
+.map-photo iframe {
+    z-index: 3;
+    border: none
 }
 
 .map-photo {
@@ -421,6 +429,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
+    position: relative;
     line-height: 0
 }
 
@@ -446,11 +455,6 @@ a {
 
 .button-search-hotels:hover {
     background-color: #604e43
-}
-
-.form-search-hotels {
-    text-align: center;
-    background-color: #fff
 }
 
 .form {
@@ -711,6 +715,30 @@ a {
     color: rgba(255,255,255,.3)
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(2000px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.modal-show {
+  display: block;
+  z-index: 2;
+  animation: bounce 0.8s;
+}
+
 .main-footer {
     background-color: rgba(255,255,255,.9);
     margin-top: -120px;
@@ -905,7 +933,7 @@ a {
     min-width: 1200px;
     background-image: url(../img/main-hotels.jpg);
     background-color: #81b3d2;
-    background-position: 29% 56%;
+    background-position: center;
     background-repeat: no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -913,7 +941,8 @@ a {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
-    flex-direction: row
+    flex-direction: row;
+    background-size: cover
 }
 
 .main-filtres-form ul {
@@ -1009,7 +1038,7 @@ a {
 .checkbox-item input[type=checkbox]:checked+.checkbox-indicator {
     content: "";
     position: absolute;
-    top: 0;
+    top: -2px;
     left: 0;
     width: 27px;
     height: 23px;
@@ -1032,7 +1061,8 @@ a {
     font-size: 0;
     border: 2px solid #fff;
     border-radius: 2px;
-    position: relative
+    position: relative;
+    padding-top: 3px;
 }
 
 .price-controls::after {
