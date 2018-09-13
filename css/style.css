@@ -411,16 +411,12 @@ a {
     width: 568px;
     height: 395px;
     position: absolute;
+    z-index: 3;
     left: 50%;
     margin-left: -284px;
     display: none;
     text-align: center;
     background-color: #fff
-}
-
-.map-photo iframe {
-    z-index: 3;
-    border: none
 }
 
 .map-photo {
@@ -429,8 +425,20 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
-    position: relative;
     line-height: 0
+}
+
+.map-photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.map-photo iframe {
+    position: relative;
+    z-index: 2;
+    border: none
 }
 
 .button-search-hotels {
