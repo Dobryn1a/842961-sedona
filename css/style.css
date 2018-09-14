@@ -758,8 +758,8 @@ a {
   }
 }
 
-.modal-error {
-  animation: shake 0.6s;
+.error {
+  animation: shake 0.8s;
 }
 
 .main-footer {

@@ -8,14 +8,13 @@ var form = modal.querySelector(".form");
     btn.addEventListener('click', function(evt) {
     evt.preventDefault();
     modal.classList.toggle('modal-show');
-    datein.focus();
 
     form.addEventListener('submit', function (evt) {
       if (!datein.value || !dateout.value || !adults.value) {
         evt.preventDefault();
-        form.classList.remove("modal-error");
+        form.classList.remove('error');
         form.offsetWidth = form.offsetWidth;
-        form.classList.add('modal-error');
+        form.classList.add('error');
       }
-      });
+    });
 });
