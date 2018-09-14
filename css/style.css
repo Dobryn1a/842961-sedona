@@ -1228,7 +1228,8 @@ a {
 
 .filtres p {
     padding: 0;
-    padding-left: 51px;
+    padding-top: 6px;
+    padding-left: 46px;
     margin: 0;
     font-size: 12px;
     line-height: 18px;
@@ -1254,6 +1255,7 @@ a {
 
 .filtres li {
     padding: 0;
+    padding-top: 4px;
     padding-right: 33px;
     margin: 0;
     list-style: none;
