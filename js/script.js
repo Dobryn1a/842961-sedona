@@ -16,5 +16,5 @@ modal.addEventListener('submit', function (evt) {
         form.classList.remove('error');
         form.offsetWidth = form.offsetWidth;
         form.classList.add('error');
-    }
+}
 });

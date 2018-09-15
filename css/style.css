@@ -712,54 +712,92 @@ a {
     color: rgba(255,255,255,.3)
 }
 
+@-webkit-keyframes bounce {
+    0% {
+      -webkit-transform: translateY(2000px);
+      transform: translateY(2000px)
+    }
+
+    80% {
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px)
+    }
+
+    90% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px)
+    }
+
+    to {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+    }
+}
+
 @keyframes bounce {
   0% {
-    transform: translateY(2000px);
-  }
+      -webkit-transform: translateY(2000px);
+      transform: translateY(2000px)
+    }
 
   80% {
-    transform: translateY(20px);
-  }
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px)
+    }
 
   90% {
-    transform: translateY(10px);
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px)
   }
 
-  100% {
-    transform: translateY(0);
+  to {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
   }
 }
 
 .modal-show {
-  display: block;
-  z-index: 3;
-  animation: bounce 0.8s;
+    display: block;
+    z-index: 3;
+    animation: bounce .8s
+}
+
+@-webkit-keyframes shake {
+  0%,to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0)
+  }
+
+  10%,30%,50%,70%,90% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px)
+  }
+
+  20%,40%,60%,80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px)
+  }
 }
 
 @keyframes shake {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
+    0%,to {
+      -webkit-transform: translateX(0);
+      transform: translateX(0)
+    }
 
-  10%,
-  30%,
-  50%,
-  70%,
-  90% {
-    transform: translateX(-10px);
-  }
+    10%,30%,50%,70%,90% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px)
+    }
 
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: translateX(10px);
-  }
+    20%,40%,60%,80% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px)
+    }
 }
 
 .error {
-  animation: shake 0.8s;
+    animation: shake .8s
 }
 
 .main-footer {
