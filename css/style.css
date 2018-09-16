@@ -427,7 +427,7 @@ a {
 .map-photo iframe {
     position: absolute;
     z-index: 2;
-    border: none
+    border: 0
 }
 
 .button-search-hotels {
