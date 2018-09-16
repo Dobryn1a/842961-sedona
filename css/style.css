@@ -403,7 +403,7 @@ a {
     z-index: 3;
     left: 50%;
     margin-left: -284px;
-    display: block;
+    display: none;
     text-align: center;
     background-color: #fff
 }
@@ -757,7 +757,7 @@ a {
 }
 
 .modal-show {
-    display: none;
+    display: block;
     z-index: 3;
     animation: bounce .8s
 }
