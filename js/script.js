@@ -5,6 +5,8 @@ var dateout = modal.querySelector('.form-date-out');
 var adults = modal.querySelector('[name=adults]');
 var form = modal.querySelector('.form');
 
+modal.classList.remove('modal-show');
+
 btn.addEventListener('click', function(evt) {
     evt.preventDefault();
     modal.classList.toggle('modal-show');
@@ -16,5 +18,5 @@ modal.addEventListener('submit', function (evt) {
         form.classList.remove('error');
         form.offsetWidth = form.offsetWidth;
         form.classList.add('error');
-}
+    }
 });
