@@ -83,16 +83,16 @@ a {
     width: 242px
 }
 
-.nav li:nth-child(1) {
+.nav li:nth-child(4n+1) {
     text-align: left
 }
 
-.nav li:nth-child(2) {
+.nav li:nth-child(4n+2) {
     text-align: left;
     margin-right: auto
 }
 
-.nav li:nth-child(3),.nav li:nth-child(4) {
+.nav li:nth-child(4n+3),.nav li:nth-child(4n+4) {
     text-align: right
 }
 
@@ -355,7 +355,8 @@ a {
 }
 
 .outbridge-list {
-    width: 400px
+    width: 400px;
+    padding-bottom: 20px
 }
 
 .outbridge-list:nth-child(3) p {
@@ -409,23 +410,16 @@ a {
 }
 
 .map-photo {
-    min-width: 1200px;
+    background-image: url(../img/map.jpg);
+    width: 1200px;
+    height: 593px;
     background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
-    height: auto;
     line-height: 0
 }
 
-.map-photo img {
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
 .map-photo iframe {
-    position: absolute;
     z-index: 2;
     border: 0
 }
@@ -525,7 +519,7 @@ a {
 
 .form-row input:focus {
     background-color: #fff;
-    border-color: #e5e5e5
+    outline-color: #e5e5e5
 }
 
 .form-row input:hover {
@@ -714,89 +708,91 @@ a {
 
 @-webkit-keyframes bounce {
     0% {
-      -webkit-transform: translateY(2000px);
-      transform: translateY(2000px)
+        -webkit-transform: translateY(2000px);
+        transform: translateY(2000px)
     }
 
     80% {
-      -webkit-transform: translateY(20px);
-      transform: translateY(20px)
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px)
     }
 
     90% {
-      -webkit-transform: translateY(10px);
-      transform: translateY(10px)
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px)
     }
 
     to {
-      -webkit-transform: translateY(0);
-      transform: translateY(0)
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
     }
 }
 
 @keyframes bounce {
-  0% {
-      -webkit-transform: translateY(2000px);
-      transform: translateY(2000px)
+    0% {
+        -webkit-transform: translateY(2000px);
+        transform: translateY(2000px)
     }
 
-  80% {
-      -webkit-transform: translateY(20px);
-      transform: translateY(20px)
+    80% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px)
     }
 
-  90% {
-      -webkit-transform: translateY(10px);
-      transform: translateY(10px)
-  }
+    90% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px)
+    }
 
-  to {
-      -webkit-transform: translateY(0);
-      transform: translateY(0)
-  }
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
 }
 
 .modal-show {
     display: block;
     z-index: 3;
+    -webkit-animation: bounce .8s;
     animation: bounce .8s
 }
 
 @-webkit-keyframes shake {
-  0%,to {
-    -webkit-transform: translateX(0);
-    transform: translateX(0)
-  }
+    0%,to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
 
-  10%,30%,50%,70%,90% {
-    -webkit-transform: translateX(-10px);
-    transform: translateX(-10px)
-  }
+    10%,30%,50%,70%,90% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px)
+    }
 
-  20%,40%,60%,80% {
-    -webkit-transform: translateX(10px);
-    transform: translateX(10px)
-  }
+    20%,40%,60%,80% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px)
+    }
 }
 
 @keyframes shake {
     0%,to {
-      -webkit-transform: translateX(0);
-      transform: translateX(0)
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
     }
 
     10%,30%,50%,70%,90% {
-      -webkit-transform: translateX(-10px);
-      transform: translateX(-10px)
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px)
     }
 
     20%,40%,60%,80% {
-      -webkit-transform: translateX(10px);
-      transform: translateX(10px)
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px)
     }
 }
 
 .error {
+    -webkit-animation: shake .8s;
     animation: shake .8s
 }
 
@@ -863,12 +859,13 @@ a {
 }
 
 .social li {
-  margin-right: 6px
+    margin-right: 6px
 }
 
 .social li:nth-child(3) {
-  padding: 0;
-  margin: 0
+    padding: 0;
+    margin: 0;
+    margin-right: 6px
 }
 
 .social-button:hover {
@@ -889,6 +886,8 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center
 }
 
@@ -916,13 +915,6 @@ a {
 .logo-htmlacademy:focus path {
     fill: #bdbbbc
 }
-
-
-
-/*----- Вторая страница -----*/
-
-
-
 
 .inner-header {
     padding: 0;
@@ -1085,6 +1077,7 @@ a {
     width: 23px;
     height: 23px;
     background-image: url(../img/checkbox-off-diss.svg);
+    fill: #6a6a6a;
     background-color: transparent;
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color
@@ -1098,6 +1091,7 @@ a {
     width: 27px;
     height: 23px;
     background-image: url(../img/checkbox-on-diss.svg);
+    fill: #6a6a6a;
     background-color: transparent;
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color
@@ -1112,6 +1106,12 @@ a {
     height: 23px;
     background-image: url(../img/checkbox-on.svg);
     background-color: transparent
+}
+
+.checkbox-item input[type=checkbox]:focus+.checkbox-indicator {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
 }
 
 .price-day {
@@ -1130,7 +1130,7 @@ a {
     border: 2px solid #fff;
     border-radius: 2px;
     position: relative;
-    padding-top: 3px;
+    padding-top: 3px
 }
 
 .price-controls::after {
@@ -1392,23 +1392,25 @@ a {
     line-height: 26px;
     font-weight: 700;
     color: #000;
-    background-color: #fff
+    background-color: #fff;
+    width: auto
 }
 
 .name-hotels {
     color: #000
 }
 
-.hotels h2:active,.name-hotels:active {
-    color: #b2b2b2
-}
-
 .hotels h2:hover,.name-hotels:hover {
     color: #81b3d2
 }
 
+.hotels h2:active,.name-hotels:active {
+    color: #b2b2b2
+}
+
 .hotels p {
     display: inline-block;
+    vertical-align: middle;
     width: 111px;
     padding: 0;
     padding-top: 6px;
@@ -1429,7 +1431,8 @@ a {
     font-weight: 700;
     color: #fff;
     background-color: #81b3d2;
-    display: inline-block
+    display: inline-block;
+    vertical-align: top
 }
 
 .reserved {
@@ -1441,7 +1444,8 @@ a {
     font-weight: 700;
     color: #fff;
     background-color: #766357;
-    display: inline-block
+    display: inline-block;
+    vertical-align: top
 }
 
 .star {
