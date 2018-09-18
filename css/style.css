@@ -911,7 +911,7 @@ a {
 .column-3 {
     margin-left: auto;
     padding-right: 72px;
-    padding-top: 14px;
+    padding-top: 16px;
     width: 390px
 }
 .check {
@@ -976,7 +976,7 @@ a {
     font-size: 16px;
     line-height: 21px;
     font-weight: 600;
-    margin-bottom: 9px;
+    margin-bottom: 11px;
     color: #fff;
     background-color: transparent
 }
@@ -1061,7 +1061,7 @@ a {
 .shows {
     display: block;
     margin: 0 86px;
-    padding: 6px 35px;
+    padding: 6px 30px;
     font-size: 14px;
     line-height: 20px;
     color: #fff;
